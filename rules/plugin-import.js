@@ -41,7 +41,8 @@ module.exports = {
         'import/no-dynamic-require': 'error',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-internal-modules.md
-        'import/no-internal-modules': 'error',
+        // NOT: Internal modül sık kullanılan bir özellik
+        'import/no-internal-modules': 'off',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
         'import/no-webpack-loader-syntax': 'error',
