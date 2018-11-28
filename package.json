@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-hurriyet",
+  "name": "@hurriyet/eslint-config-hurriyet",
   "version": "1.0.0",
   "description": "Hurriyet's ESLint shareable config",
   "main": "index.js",
