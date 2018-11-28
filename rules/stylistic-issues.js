@@ -105,11 +105,8 @@ module.exports = {
         'func-names': 'off',
 
         // https://eslint.org/docs/rules/func-style
-        'func-style': [
-            'error',
-            'expression',
-            { allowArrowFunctions: true },
-        ],
+        // NOT: Fonksiyon yazımı fazla katı bir kural, duruma göre kullanım değişiklik gösterebildiğinden kapalı
+        'func-style': 'off',
 
         // https://eslint.org/docs/rules/function-paren-newline
         'function-paren-newline': ['error', 'consistent'],
