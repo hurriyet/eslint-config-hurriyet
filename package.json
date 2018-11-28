@@ -9,6 +9,14 @@
     "lint": "eslint -c ./index.js --ext .js ./rules/*.js",
     "fix": "eslint -c ./index.js --ext .js ./rules/*.js --fix"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hurriyet/eslint-config-hurriyet"
+  },
+  "bugs": {
+    "url": "https://github.com/hurriyet/eslint-config-hurriyet/issues"
+  },
+  "homepage": "https://github.com/hurriyet/eslint-config-hurriyet",
   "keywords": [
     "hürriyet",
     "eslint",
