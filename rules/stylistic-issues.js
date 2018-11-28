@@ -405,11 +405,8 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/quotes
-        'quotes': [
-            'error',
-            'single',
-            { avoidEscape: true },
-        ],
+        // NOT: Karma kullanım okunaklılığı negatif etkilemiyor
+        'quotes': 'off',
 
         // https://eslint.org/docs/rules/require-jsdoc
         'require-jsdoc': 'off',
