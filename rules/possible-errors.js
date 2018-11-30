@@ -20,7 +20,7 @@ module.exports = {
         'no-cond-assign': ['error', 'except-parens'],
 
         // https://eslint.org/docs/rules/no-console
-        'no-console': 'warn',
+        'no-console': ["warn", { allow: ["warn", "error", "info", "time", "timeEnd", "timeLog"] }],
 
         // https://eslint.org/docs/rules/no-constant-condition
         'no-constant-condition': 'error',
