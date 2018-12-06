@@ -1,4 +1,4 @@
-module.exports = {
+﻿module.exports = {
     rules: {
         // https://eslint.org/docs/rules/array-bracket-newline
         'array-bracket-newline': ['error', { multiline: true, minItems: 3 }],
@@ -288,7 +288,8 @@ module.exports = {
         'no-new-object': 'error',
 
         // https://eslint.org/docs/rules/no-plusplus
-        'no-plusplus': 'error',
+	// NOT: Döngülerde sık kullanıldığından kapatıldı
+        'no-plusplus': 'off',
 
         // https://eslint.org/docs/rules/no-restricted-syntax
         'no-restricted-syntax': [
