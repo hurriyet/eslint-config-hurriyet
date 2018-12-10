@@ -42,6 +42,7 @@
         ],
 
         // https://eslint.org/docs/rules/comma-dangle
+        // NOT: fonksiyonlar için bu özellik kapatıldı, sadece ES 2017 ile çalıştığından nodejs tarafında hataya sebep olabiliyor.
         'comma-dangle': [
             'error',
             {
@@ -49,7 +50,7 @@
                 objects: 'always-multiline',
                 imports: 'always-multiline',
                 exports: 'always-multiline',
-                functions: 'always-multiline',
+                functions: 'ignore',
             },
         ],
 
