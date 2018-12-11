@@ -399,8 +399,7 @@
         // https://eslint.org/docs/rules/quote-props.html
         'quote-props': [
             'error',
-            'consistent-as-needed',
-            { keywords: false, unnecessary: true, numbers: false },
+            'consistent',
         ],
 
         // https://eslint.org/docs/rules/quotes
