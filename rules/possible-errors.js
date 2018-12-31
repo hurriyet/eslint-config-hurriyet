@@ -118,10 +118,6 @@ module.exports = {
         // https://eslint.org/docs/rules/use-isnan
         'use-isnan': 'error',
 
-        // https://eslint.org/docs/rules/valid-jsdoc
-        // NOT: JSDoc kullanmadığımızdan kapalı
-        'valid-jsdoc': 'off',
-
         // https://eslint.org/docs/rules/valid-typeof
         'valid-typeof': ['error', { requireStringLiterals: true }],
     },

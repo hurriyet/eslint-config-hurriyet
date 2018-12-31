@@ -406,9 +406,6 @@
         // NOT: Karma kullanım okunaklılığı negatif etkilemiyor
         'quotes': 'off',
 
-        // https://eslint.org/docs/rules/require-jsdoc
-        'require-jsdoc': 'off',
-
         // https://eslint.org/docs/rules/semi
         'semi': ['error', 'always'],
 
