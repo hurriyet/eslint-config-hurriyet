@@ -1,4 +1,4 @@
-﻿module.exports = {
+module.exports = {
     rules: {
         // https://eslint.org/docs/rules/array-bracket-newline
         'array-bracket-newline': ['error', { multiline: true, minItems: 3 }],
@@ -289,7 +289,7 @@
         'no-new-object': 'error',
 
         // https://eslint.org/docs/rules/no-plusplus
-	// NOT: Döngülerde sık kullanıldığından kapatıldı
+        // NOT: Döngülerde sık kullanıldığından kapatıldı
         'no-plusplus': 'off',
 
         // https://eslint.org/docs/rules/no-restricted-syntax
@@ -397,10 +397,7 @@
         'prefer-object-spread': 'off',
 
         // https://eslint.org/docs/rules/quote-props.html
-        'quote-props': [
-            'error',
-            'consistent',
-        ],
+        'quote-props': ['error', 'consistent'],
 
         // https://eslint.org/docs/rules/quotes
         // NOT: Karma kullanım okunaklılığı negatif etkilemiyor

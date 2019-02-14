@@ -159,7 +159,7 @@ module.exports = {
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-export.md
         // NOT: Kullanılabilir bir yöntem olduğundan kapalı
-        'imprt/no-named-export': 'off',
+        'import/no-named-export': 'off',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-anonymous-default-export.md
         // NOT: Sık kullanılan bir yöntem, bu nedenle kapalı

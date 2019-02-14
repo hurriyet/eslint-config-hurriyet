@@ -1,4 +1,4 @@
-﻿module.exports = {
+module.exports = {
     rules: {
         // https://eslint.org/docs/rules/accessor-pairs
         // NOT: Gerekli olmadığından bu kontrol kapalı
@@ -277,6 +277,9 @@
 
         // https://eslint.org/docs/rules/no-useless-call
         'no-useless-call': 'off',
+
+        // https://eslint.org/docs/rules/no-useless-call
+        'no-useless-catch': 'error',
 
         // https://eslint.org/docs/rules/no-useless-concat
         'no-useless-concat': 'error',
