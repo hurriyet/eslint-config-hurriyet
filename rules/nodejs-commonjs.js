@@ -1,13 +1,13 @@
 module.exports = {
     rules: {
         // https://eslint.org/docs/rules/callback-return
-        'callback-return': 'error',
+        'callback-return': 'off',
 
         // https://eslint.org/docs/rules/global-require
-        'global-require': 'error',
+        'global-require': 'off',
 
         // https://eslint.org/docs/rules/handle-callback-err
-        'handle-callback-err': 'error',
+        'handle-callback-err': 'warn',
 
         // https://eslint.org/docs/rules/no-buffer-constructor
         'no-buffer-constructor': 'error',

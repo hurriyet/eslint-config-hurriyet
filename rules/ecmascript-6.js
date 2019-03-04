@@ -1,25 +1,13 @@
 module.exports = {
     rules: {
         // https://eslint.org/docs/rules/arrow-body-style
-        'arrow-body-style': [
-            'error',
-            'as-needed',
-            {
-                requireReturnForObjectLiteral: false,
-            },
-        ],
+        'arrow-body-style': 'off',
 
         // https://eslint.org/docs/rules/arrow-parens
-        'arrow-parens': [
-            'error',
-            'as-needed',
-            {
-                requireForBlockBody: true,
-            },
-        ],
+        'arrow-parens': 'off',
 
         // https://eslint.org/docs/rules/arrow-spacing
-        'arrow-spacing': ['error', { before: true, after: true }],
+        'arrow-spacing': 'off',
 
         // https://eslint.org/docs/rules/constructor-super
         'constructor-super': 'error',
@@ -80,11 +68,11 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/no-var
-        'no-var': 'error',
+        'no-var': 'warn',
 
         // https://eslint.org/docs/rules/object-shorthand
         'object-shorthand': [
-            'error',
+            'warn',
             'always',
             {
                 ignoreConstructors: false,
@@ -93,17 +81,11 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/prefer-arrow-callback
-        'prefer-arrow-callback': [
-            'error',
-            {
-                allowNamedFunctions: false,
-                allowUnboundThis: true,
-            },
-        ],
+        'prefer-arrow-callback': 'off',
 
         // https://eslint.org/docs/rules/prefer-const
         'prefer-const': [
-            'error',
+            'warn',
             {
                 destructuring: 'any',
                 ignoreReadBeforeAssign: true,
@@ -112,7 +94,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/prefer-destructuring
         'prefer-destructuring': [
-            'error',
+            'warn',
             {
                 VariableDeclarator: {
                     array: false,
@@ -129,22 +111,22 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/prefer-numeric-literals
-        'prefer-numeric-literals': 'error',
+        'prefer-numeric-literals': 'warn',
 
         // https://eslint.org/docs/rules/prefer-rest-params
-        'prefer-rest-params': 'error',
+        'prefer-rest-params': 'warn',
 
         // https://eslint.org/docs/rules/prefer-spread
-        'prefer-spread': 'error',
+        'prefer-spread': 'warn',
 
         // https://eslint.org/docs/rules/prefer-template
-        'prefer-template': 'error',
+        'prefer-template': 'warn',
 
         // https://eslint.org/docs/rules/require-yield
         'require-yield': 'error',
 
         // https://eslint.org/docs/rules/rest-spread-spacing
-        'rest-spread-spacing': ['error', 'never'],
+        'rest-spread-spacing': 'off',
 
         // https://eslint.org/docs/rules/sort-imports
         // NOT: Bir önemi olmadığından kapalı
@@ -163,12 +145,12 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/symbol-description
-        'symbol-description': 'error',
+        'symbol-description': 'off',
 
         // https://eslint.org/docs/rules/template-curly-spacing
-        'template-curly-spacing': ['error', 'never'],
+        'template-curly-spacing': 'off',
 
         // https://eslint.org/docs/rules/yield-star-spacing
-        'yield-star-spacing': ['error', 'after'],
+        'yield-star-spacing': 'off',
     },
 };

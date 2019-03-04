@@ -1,61 +1,32 @@
 module.exports = {
     rules: {
         // https://eslint.org/docs/rules/array-bracket-newline
-        'array-bracket-newline': ['error', { multiline: true, minItems: 3 }],
+        'array-bracket-newline': "off",
 
         // https://eslint.org/docs/rules/array-bracket-spacing
-        'array-bracket-spacing': ['error', 'never'],
+        'array-bracket-spacing': "off",
 
         // https://eslint.org/docs/rules/array-element-newline
-        'array-element-newline': ['error', { multiline: true, minItems: 3 }],
+        'array-element-newline': "off",
 
         // https://eslint.org/docs/rules/block-spacing
-        'block-spacing': ['error', 'always'],
+        'block-spacing': "off",
 
         // https://eslint.org/docs/rules/brace-style
-        'brace-style': [
-            'error',
-            '1tbs',
-            { allowSingleLine: true },
-        ],
+        'brace-style': "off",
 
         // https://eslint.org/docs/rules/camelcase
-        'camelcase': ['error', { properties: 'never' }],
+        'camelcase': "off",
 
         // https://eslint.org/docs/rules/capitalized-comments
         // NOT: Kod yazımını doğrudan etkileyen bir özellik değil, dolayısıyla kapalı
-        'capitalized-comments': [
-            'off',
-            'never',
-            {
-                line: {
-                    ignorePattern: '.*',
-                    ignoreInlineComments: true,
-                    ignoreConsecutiveComments: true,
-                },
-                block: {
-                    ignorePattern: '.*',
-                    ignoreInlineComments: true,
-                    ignoreConsecutiveComments: true,
-                },
-            },
-        ],
+        'capitalized-comments': "off",
 
         // https://eslint.org/docs/rules/comma-dangle
-        // NOT: fonksiyonlar için bu özellik kapatıldı, sadece ES 2017 ile çalıştığından nodejs tarafında hataya sebep olabiliyor.
-        'comma-dangle': [
-            'error',
-            {
-                arrays: 'always-multiline',
-                objects: 'always-multiline',
-                imports: 'always-multiline',
-                exports: 'always-multiline',
-                functions: 'ignore',
-            },
-        ],
+        'comma-dangle': "off",
 
         // https://eslint.org/docs/rules/comma-spacing
-        'comma-spacing': ['error', { before: false, after: true }],
+        'comma-spacing': "off",
 
         // https://eslint.org/docs/rules/comma-style
         'comma-style': [
@@ -79,76 +50,56 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/computed-property-spacing
-        'computed-property-spacing': ['error', 'never'],
+        'computed-property-spacing': "off",
 
         // https://eslint.org/docs/rules/consistent-this
         // NOT: Kullanımı zorlaştıracağından kapalı
         'consistent-this': 'off',
 
         // https://eslint.org/docs/rules/eol-last
-        'eol-last': ['error', 'always'],
+        'eol-last': "off",
 
         // https://eslint.org/docs/rules/func-call-spacing
-        'func-call-spacing': ['error', 'never'],
+        'func-call-spacing': "off",
 
         // https://eslint.org/docs/rules/func-name-matching
-        // NOT: Kullanım zorluğu yaratacağından kapalı
-        'func-name-matching': [
-            'off',
-            'always',
-            {
-                includeCommonJSModuleExports: false,
-            },
-        ],
+        'func-name-matching': "off",
 
         // https://eslint.org/docs/rules/func-names
-        // NOT: this objesini kaybetmemek için arrow function yerine function expression kullanılabileceğinden kapalı
         'func-names': 'off',
 
         // https://eslint.org/docs/rules/func-style
-        // NOT: Fonksiyon yazımı fazla katı bir kural, duruma göre kullanım değişiklik gösterebildiğinden kapalı
         'func-style': 'off',
 
         // https://eslint.org/docs/rules/function-paren-newline
-        'function-paren-newline': ['error', 'consistent'],
+        'function-paren-newline': "off",
 
         // https://eslint.org/docs/rules/id-blacklist
-        // NOT: Böyle bir kontrolümüz olmadığından kapalı
         'id-blacklist': 'off',
 
         // https://eslint.org/docs/rules/id-length
-        // NOT: Dosyalar build edildiğinden bu isimler prod ortamında kullanılmıyor, bu nedenle kapalı
         'id-length': 'off',
 
         // https://eslint.org/docs/rules/id-match
-        // NOT: Yazım sırasında zorluk yaratabileceğinden kapalı
         'id-match': 'off',
 
         // https://eslint.org/docs/rules/implicit-arrow-linebreak
         'implicit-arrow-linebreak': ['error', 'beside'],
 
         // https://eslint.org/docs/rules/indent
-        'indent': ['error', 4],
+        'indent': "off",
 
         // https://eslint.org/docs/rules/jsx-quotes
         'jsx-quotes': ['off', 'prefer-double'],
 
         // https://eslint.org/docs/rules/key-spacing
-        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+        'key-spacing': "off",
 
         // https://eslint.org/docs/rules/keyword-spacing
-        'keyword-spacing': ['error', { before: true, after: true }],
+        'keyword-spacing': "off",
 
         // https://eslint.org/docs/rules/line-comment-position
-        // NOT: Buradaki ihtiyaç duruma göre değişebileceğinden kapalı
-        'line-comment-position': [
-            'off',
-            {
-                position: 'above',
-                ignorePattern: '',
-                applyDefaultPatterns: true,
-            },
-        ],
+        'line-comment-position': "off",
 
         // https://eslint.org/docs/rules/linebreak-style
         // NOT: Developer cihaz çeşitliliği nedeniyle bu seçeneği kullanmak mümkün görünmüyor
@@ -159,11 +110,7 @@ module.exports = {
         'lines-around-comment': 'off',
 
         // https://eslint.org/docs/rules/lines-between-class-members
-        'lines-between-class-members': [
-            'error',
-            'always',
-            { exceptAfterSingleLine: true },
-        ],
+        'lines-between-class-members': "off",
 
         // https://eslint.org/docs/rules/max-depth
         // NOT: Uygulanabilir görünmüyor
@@ -171,7 +118,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/max-len
         'max-len': [
-            'error',
+            'warn',
             120,
             2,
             {
@@ -185,26 +132,11 @@ module.exports = {
 
         // https://eslint.org/docs/rules/max-lines
         // NOT: Kullanılabilir görünmüyor, kapalı
-        'max-lines': [
-            'off',
-            {
-                max: 300,
-                skipBlankLines: true,
-                skipComments: true,
-            },
-        ],
+        'max-lines': "off",
 
         // https://eslint.org/docs/rules/max-lines-per-function
         // NOT: Kullanılabilir görünmüyor, kapalı
-        'max-lines-per-function': [
-            'off',
-            {
-                max: 50,
-                skipBlankLines: true,
-                skipComments: true,
-                IIFEs: true,
-            },
-        ],
+        'max-lines-per-function': "off",
 
         // https://eslint.org/docs/rules/max-nested-callbacks
         'max-nested-callbacks': [
@@ -215,7 +147,7 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/max-params
-        'max-params': ['error', 4],
+        'max-params': "off",
 
         // https://eslint.org/docs/rules/max-statements
         // NOT: Kullanılabilir görünmüyor, kapalı
@@ -234,21 +166,13 @@ module.exports = {
         'multiline-ternary': ['off', 'never'],
 
         // https://eslint.org/docs/rules/new-cap
-        'new-cap': [
-            'error',
-            {
-                newIsCap: true,
-                newIsCapExceptions: [],
-                capIsNew: false,
-                capIsNewExceptions: [],
-            },
-        ],
+        'new-cap': "off",
 
         // https://eslint.org/docs/rules/new-parens
-        'new-parens': 'error',
+        'new-parens': 'off',
 
         // https://eslint.org/docs/rules/newline-per-chained-call
-        'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
+        'newline-per-chained-call': 'off',
 
         // https://eslint.org/docs/rules/no-array-constructor
         'no-array-constructor': 'error',
@@ -270,20 +194,20 @@ module.exports = {
         'no-mixed-operators': 'error',
 
         // https://eslint.org/docs/rules/no-mixed-spaces-and-tabs
-        'no-mixed-spaces-and-tabs': 'error',
+        'no-mixed-spaces-and-tabs': "off",
 
         // https://eslint.org/docs/rules/no-multi-assign
-        'no-multi-assign': ['error'],
+        'no-multi-assign': "off",
 
         // https://eslint.org/docs/rules/no-multiple-empty-lines
-        'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 0 }],
+        'no-multiple-empty-lines': ['warn', { max: 2, maxEOF: 0 }],
 
         // https://eslint.org/docs/rules/no-negated-condition
         // NOT: Sık kullanılan bir kontrol tipi, yazımı zorlaştıracağından kapalı
         'no-negated-condition': 'off',
 
         // https://eslint.org/docs/rules/no-nested-ternary
-        'no-nested-ternary': 'error',
+        'no-nested-ternary': 'warn',
 
         // https://eslint.org/docs/rules/no-new-object
         'no-new-object': 'error',
@@ -310,7 +234,7 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/no-tabs
-        'no-tabs': 'error',
+        'no-tabs': 'warn',
 
         // https://eslint.org/docs/rules/no-ternary
         // NOT: Sık kullanılan bir yazım stili olduğundan kapalı
@@ -318,7 +242,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/no-trailing-spaces
         'no-trailing-spaces': [
-            'error',
+            'warn',
             {
                 skipBlankLines: false,
                 ignoreComments: false,
@@ -327,7 +251,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/no-underscore-dangle
         'no-underscore-dangle': [
-            'error',
+            'warn',
             {
                 allow: [],
                 allowAfterThis: false,
@@ -337,7 +261,7 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/no-unneeded-ternary
-        'no-unneeded-ternary': ['error', { defaultAssignment: false }],
+        'no-unneeded-ternary': ['warn', { defaultAssignment: false }],
 
         // https://eslint.org/docs/rules/no-whitespace-before-property
         'no-whitespace-before-property': 'error',
@@ -350,45 +274,28 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/object-curly-spacing
-        'object-curly-spacing': ['error', 'always'],
+        'object-curly-spacing': "off",
 
         // https://eslint.org/docs/rules/object-curly-newline
-        'object-curly-newline': [
-            'error',
-            {
-                ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-                ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
-                ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-                ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-            },
-        ],
+        'object-curly-newline': "off",
 
         // https://eslint.org/docs/rules/object-property-newline
-        'object-property-newline': [
-            'error',
-            {
-                allowAllPropertiesOnSameLine: true,
-            },
-        ],
+        'object-property-newline': "off",
 
         // https://eslint.org/docs/rules/one-var
-        'one-var': ['error', 'never'],
+        'one-var': "off",
 
         // https://eslint.org/docs/rules/one-var-declaration-per-line
-        'one-var-declaration-per-line': ['error', 'always'],
+        'one-var-declaration-per-line': "off",
 
         // https://eslint.org/docs/rules/operator-assignment
-        'operator-assignment': ['error', 'always'],
+        'operator-assignment': "off",
 
         // https://eslint.org/docs/rules/operator-linebreak
-        'operator-linebreak': [
-            'error',
-            'before',
-            { overrides: { '=': 'none' } },
-        ],
+        'operator-linebreak': "off",
 
         // https://eslint.org/docs/rules/padded-blocks
-        'padded-blocks': ['error', { blocks: 'never', classes: 'never', switches: 'never' }],
+        'padded-blocks': "off",
 
         // https://eslint.org/docs/rules/padding-line-between-statements
         'padding-line-between-statements': 'off',
@@ -397,20 +304,20 @@ module.exports = {
         'prefer-object-spread': 'off',
 
         // https://eslint.org/docs/rules/quote-props.html
-        'quote-props': ['error', 'consistent'],
+        'quote-props': "off",
 
         // https://eslint.org/docs/rules/quotes
         // NOT: Karma kullanım okunaklılığı negatif etkilemiyor
         'quotes': 'off',
 
         // https://eslint.org/docs/rules/semi
-        'semi': ['error', 'always'],
+        'semi': ['warn', 'always'],
 
         // https://eslint.org/docs/rules/semi-spacing
-        'semi-spacing': ['error', { before: false, after: true }],
+        'semi-spacing': ['warn', { before: false, after: true }],
 
         // https://eslint.org/docs/rules/semi-style
-        'semi-style': ['error', 'last'],
+        'semi-style': ['warn', 'last'],
 
         // https://eslint.org/docs/rules/sort-keys
         // NOT: before - after gibi mantıksal sıralamaları engelleyeceğinden kapalı
@@ -421,64 +328,33 @@ module.exports = {
         'sort-vars': 'off',
 
         // https://eslint.org/docs/rules/space-before-blocks
-        'space-before-blocks': 'error',
+        'space-before-blocks': 'off',
 
         // https://eslint.org/docs/rules/space-before-function-paren
-        'space-before-function-paren': [
-            'error',
-            {
-                anonymous: 'always',
-                named: 'never',
-                asyncArrow: 'always',
-            },
-        ],
+        'space-before-function-paren': 'off',
 
         // https://eslint.org/docs/rules/space-in-parens
-        'space-in-parens': ['error', 'never'],
+        'space-in-parens': "off",
 
         // https://eslint.org/docs/rules/space-infix-ops
-        'space-infix-ops': 'error',
+        'space-infix-ops': 'off',
 
         // https://eslint.org/docs/rules/space-unary-ops
-        'space-unary-ops': [
-            'error',
-            {
-                words: true,
-                nonwords: false,
-                overrides: {
-                },
-            },
-        ],
+        'space-unary-ops': 'off',
 
         // https://eslint.org/docs/rules/spaced-comment
-        'spaced-comment': [
-            'error',
-            'always',
-            {
-                line: {
-                    exceptions: ['-', '+'],
-                    markers: ['=', '!'], // space here to support sprockets directives
-                },
-                block: {
-                    exceptions: ['-', '+'],
-                    markers: ['=', '!'], // space here to support sprockets directives
-                    balanced: true,
-                },
-            },
-        ],
+        'spaced-comment': 'off',
 
         // https://eslint.org/docs/rules/switch-colon-spacing
-        'switch-colon-spacing': ['error', { after: true, before: false }],
+        'switch-colon-spacing': ['warn', { after: true, before: false }],
 
         // https://eslint.org/docs/rules/template-tag-spacing
         'template-tag-spacing': ['error', 'never'],
 
         // https://eslint.org/docs/rules/unicode-bom
-        'unicode-bom': ['error', 'never'],
+        'unicode-bom': 'off',
 
         // https://eslint.org/docs/rules/wrap-regex
-        // NOT: Kullanımı zor olduğundan kapalı
         'wrap-regex': 'off',
-
     },
 };

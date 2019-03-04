@@ -64,13 +64,13 @@ module.exports = {
         // Helpful warnings
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
-        'import/export': 'error',
+        'import/export': 'warn',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
-        'import/no-named-as-default': 'error',
+        'import/no-named-as-default': 'warn',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
-        'import/no-named-as-default-member': 'error',
+        'import/no-named-as-default-member': 'warn',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
         // NOT: Bu seçenek henüz geliştirme aşamasında olduğundan bug riskine karşı kapalı
@@ -81,7 +81,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 'off',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
-        'import/no-mutable-exports': 'error',
+        'import/no-mutable-exports': 'warn',
 
         // Module systems
 

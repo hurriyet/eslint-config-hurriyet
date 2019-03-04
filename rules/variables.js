@@ -22,7 +22,7 @@ module.exports = {
         'no-shadow-restricted-names': 'error',
 
         // https://eslint.org/docs/rules/no-undef
-        'no-undef': 'error',
+        'no-undef': 'warn',
 
         // https://eslint.org/docs/rules/no-undef-init
         'no-undef-init': 'error',
@@ -32,7 +32,7 @@ module.exports = {
 
         // https://eslint.org/docs/rules/no-unused-vars
         'no-unused-vars': [
-            'error',
+            'warn',
             {
                 args: 'none',
                 ignoreRestSiblings: true,
@@ -41,13 +41,6 @@ module.exports = {
         ],
 
         // https://eslint.org/docs/rules/no-use-before-define
-        'no-use-before-define': [
-            'error',
-            {
-                classes: true,
-                functions: true,
-                variables: true,
-            },
-        ],
+        'no-use-before-define': "off",
     },
 };

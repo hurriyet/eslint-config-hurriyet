@@ -310,6 +310,9 @@ module.exports = {
         // https://eslint.org/docs/rules/no-with
         'no-with': 'error',
 
+        // https://eslint.org/docs/rules/prefer-named-capture-group
+        'prefer-named-capture-group': 'off',
+
         // https://eslint.org/docs/rules/prefer-promise-reject-errors
         'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
 
