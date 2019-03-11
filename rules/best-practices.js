@@ -160,7 +160,7 @@ module.exports = {
         'no-multi-str': 'error',
 
         // https://eslint.org/docs/rules/no-new
-        'no-new': 'error',
+        'no-new': 'off',
 
         // https://eslint.org/docs/rules/no-new-func
         'no-new-func': 'error',
