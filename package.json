@@ -1,6 +1,6 @@
 {
   "name": "@hurriyet/eslint-config-hurriyet",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Hurriyet's ESLint shareable config",
   "main": "index.js",
   "license": "MIT",
